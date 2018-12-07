@@ -21,7 +21,7 @@ async def on_message(message):
         if "!greeting" in message.content.lower():
             await client.send_message(message.channel, content = "Greetings and Salutations!")
         elif "!goodbye" in message.content.lower():
-            await client.send+message(message.channel, content = "I hope to see you return soon!")
+            await client.send_message(message.channel, content = "I hope to see you return soon!")
             
 # start the bot            
 client.run(TOKEN)
