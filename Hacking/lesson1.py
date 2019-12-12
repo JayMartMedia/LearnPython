@@ -1,0 +1,1 @@
+print("Nick is cool!");
